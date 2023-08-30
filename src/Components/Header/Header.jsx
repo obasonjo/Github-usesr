@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <nav>
         <div>
-            <h2 className='logo'>WeatherApp.com</h2>
+            <h2 className='logo'>Github usesr</h2>
         </div>
         <ul className='nav-link'>
             <li>Home</li>

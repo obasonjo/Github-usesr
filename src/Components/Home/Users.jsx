@@ -44,7 +44,7 @@ const Users = () => {
     }
     
   return (
-    <div>
+    <div className='user'>
         <form onSubmit={handleUser}>
             <input type="text" placeholder='Enter a github username' onChange={handleChange} />
             <button onClick={handleClick}>{isClick?"pls wait..." : "Check Github User"}</button>

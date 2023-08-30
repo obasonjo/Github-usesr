@@ -8,7 +8,8 @@ import Service from './Components/Service/Service';
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className='App'>
+      <BrowserRouter>
       <Routes>
         <Route index element={<MyApp/>} />
         <Route path='/about' element={<About/>} />
@@ -16,6 +17,7 @@ function App() {
         <Route path='/service' element={<Service/>}/>
       </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 
